@@ -6,3 +6,14 @@
 * **E-mail:** Antosha101992@rambler.ru
 * **GitHub:** AlmostEazy
 
+## About Me
+My name is Anton, and I am a 29 years old thermal power engineer.
+
+After graduation, I worked in engineering organizations for 6 years. All last year I thought I wanted to change my life and good friend offered to try Front-end for me. So, here I am!
+***
+**Personal qualities:**
+
+Absence of bad habits, high efficiency, honesty, competent speech, sociability, creative thinking, quick learning, personal and professional growth.
+***
+
+
