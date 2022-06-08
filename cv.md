@@ -16,4 +16,15 @@ After graduation, I worked in engineering organizations for 6 years. All last ye
 Absence of bad habits, high efficiency, honesty, competent speech, sociability, creative thinking, quick learning, personal and professional growth.
 ***
 
-
+## Education
+* **Bryansk State Technical University**
+  * Industrial thermal power engineering
+  * Information security
+  
+* **Udemy**
+  * [HTML/CSS] [1] (*in progress*)
+  * [JavaScript] [2] (*in progress*)
+  
+## Language
+* Russian (*Native*)
+* English (*Pre-Intermediate*)
