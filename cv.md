@@ -28,3 +28,6 @@ Absence of bad habits, high efficiency, honesty, competent speech, sociability, 
 ## Language
 * Russian (*Native*)
 * English (*Pre-Intermediate*)
+
+[1]:https://www.udemy.com/course/webdeveloper/
+[2]:https://www.udemy.com/course/javascript_full/
