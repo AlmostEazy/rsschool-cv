@@ -38,13 +38,13 @@
             <section class="profile" id="information">
                 <img src="assets/img/avatarManDesign.png" alt="My Avatar">
                 <h1>Zaytsev Anton Viktorovich</h1>
-                <h4>Thermal power engineer</h4>
+                <h2>Thermal power engineer</h2>
                 <img src="assets/img/informationLogo.png" alt="phones art">
                 <ul class="contacts">
-                    <li>Address: 22nd Street of the CPSU Congress, Bryansk, Russian Federation</li>
-                    <li>Phone: +7 (920) 861- 71-71</li>
-                    <li>E-mail: Antosha101992@rambler.ru</li>
-                    <li>GitHub: AlmostEazy</li>
+                    <li class="enumeration">Address: 22nd Street of the CPSU Congress, Bryansk, Russian Federation</li>
+                    <li class="enumeration">Phone: +7 (920) 861- 71-71</li>
+                    <li class="enumeration">E-mail: <a class="links" href="mailto:Antosha101992@rambler.ru">Antosha101992@rambler.ru</a></li>
+                    <li class="enumeration">GitHub: <a class="links" href="https://github.com/AlmostEazy"> AlmostEazy</a></li>
                 </ul>
             </section>
 
@@ -52,53 +52,55 @@
                 <img src="assets/img/summaryLogo.png" alt="Greeting">
                 <p>My name is Anton, and I am a 29 years old thermal power engineer.</p>
                 <p>After graduation, I worked in engineering organizations for 6 years. All last year I thought I wanted to change my life and good friend offered to try Front-end for me. So, here I am!</p>
-                <h4>Personal qualities:</h4>
+                <h2>Personal qualities:</h2>
                     <ul>
-                        <li>Absence of bad habits</li>
-                        <li>High efficiency</li>
-                        <li>Honesty</li>
-                        <li>Competent speech</li>
-                        <li>Sociability</li>
-                        <li>Creative thinking</li>
-                        <li>Quick learning</li>
-                        <li>Personal and professional growth</li>
+                        <li class="enumeration">Absence of bad habits</li>
+                        <li class="enumeration">High efficiency</li>
+                        <li class="enumeration">Honesty</li>
+                        <li class="enumeration">Competent speech</li>
+                        <li class="enumeration">Sociability</li>
+                        <li class="enumeration">Creative thinking</li>
+                        <li class="enumeration">Quick learning</li>
+                        <li class="enumeration">Personal and professional growth</li>
                     </ul>
             </section>
 
             <section class="study" id="education">
                 <img src="assets/img/educationLogo.png" alt="Books">
                 <ul>
-                    <li>Bryansk State Technical University</li>
+                    <li class="enumeration" style="color: darkgreen"><b>Bryansk State Technical University</b></li>
                         <ul>
-                            <li>Industrial thermal power engineering</li>
-                            <li>Information security</li>
+                            <li class="enumeration">Industrial thermal power engineering</li>
+                            <li class="enumeration">Information security</li>
                         </ul>
-                    <li>Udemy</li>
+                    <li class="enumeration" style="color: darkgreen"><b>Udemy</b></li>
                         <ul>
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
+                            <li class="enumeration">HTML/CSS</li>
+                            <li class="enumeration">JavaScript</li>
                         </ul>
                 </ul>
             </section>
 
             <section class="codeExample" id="code">
                 <img src="assets/img/codeLogo.png" alt="JS Logo">
+                    <pre>
                         <code>
-                            function paperwork(n, m) {
-                            if (n < 0 || m < 0) {
-                            return 0;
-                            } else {
-                            return n*m;
-                            }
-                            }
+function paperwork(n, m) {
+if (n < 0 || m < 0) {
+return 0;
+} else {
+return n*m;
+}
+}
                         </code>
+                    </pre>
             </section>
             
             <Section class="languages" id="language">
                 <img src="assets/img/languageLogo.png" alt="">
                     <ul>
-                        <li>Russian (Native)</li>
-                        <li>English (Pre-Intermediate)</li>
+                        <li class="enumeration">Russian (Native)</li>
+                        <li class="enumeration">English (Pre-Intermediate)</li>
                     </ul>
             </Section>
         </div>
@@ -106,7 +108,16 @@
 </main>
 
 <footer class="footer">
-    <div class="container"></div>
+    <div class="container">
+        <div class="footer__inner">
+            <div><p>GitHub: <a class="links" href="https://github.com/AlmostEazy"> AlmostEazy</a></p>
+                 © 2022 All Rights Reserved by RS School.
+            </div>
+                <div class="rsschoolLogo">
+                    <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo"></a>
+                </div>
+        </div>
+    </div>
 </footer>
 
 </body>
