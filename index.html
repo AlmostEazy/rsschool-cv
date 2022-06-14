@@ -3,11 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cv</title>
 </head>
 <body>
+
+
+<header class = "header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> <a href="#information" class="nav-link">Personal information</a> </li>
+                    <li class="nav-item"> <a href="#summary" class="nav-link">About Me</a> </li>
+                    <li class="nav-item"> <a href="#education" class="nav-link">Education</a> </li>
+                    <li class="nav-item"> <a href="#code" class="nav-link">Code</a> </li>
+                    <li class="nav-item"> <a href="#language" class="nav-link">Languages</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class = "main">
+    <div class="container">
+        <div class="content">
+            <section class="profile" id="information">
+                <img src="assets/img/avatarManDesign.png" alt="My Avatar">
+                <h1>Zaytsev Anton Viktorovich</h1>
+                <h2>Thermal power engineer</h2>
+                <img src="assets/img/informationLogo.png" alt="phones art">
+                <h2>Contacts</h2>
+                <ul class="contacts">
+                    <li class="enumeration">Address: 22nd Street of the CPSU Congress, Bryansk, Russian Federation</li>
+                    <li class="enumeration">Phone: +7 (920) 861- 71-71</li>
+                    <li class="enumeration">E-mail: <a class="links" href="mailto:Antosha101992@rambler.ru">Antosha101992@rambler.ru</a></li>
+                    <li class="enumeration">GitHub: <a class="links" href="https://github.com/AlmostEazy"> AlmostEazy</a></li>
+                </ul>
+            </section>
+
+            <section class="about" id="summary">
+                <img src="assets/img/summaryLogo.png" alt="Greeting">
+                <h2>About Me</h2>
+                <p>My name is Anton, and I am a 29 years old thermal power engineer.</p>
+                <p>After graduation, I worked in engineering organizations for 6 years. All last year I thought I wanted to change my life and good friend offered to try Front-end for me. So, here I am!</p>
+                <h2>Personal qualities:</h2>
+                    <ul>
+                        <li class="enumeration">Absence of bad habits</li>
+                        <li class="enumeration">High efficiency</li>
+                        <li class="enumeration">Honesty</li>
+                        <li class="enumeration">Competent speech</li>
+                        <li class="enumeration">Sociability</li>
+                        <li class="enumeration">Creative thinking</li>
+                        <li class="enumeration">Quick learning</li>
+                        <li class="enumeration">Personal and professional growth</li>
+                    </ul>
+            </section>
+
+            <section class="study" id="education">
+                <img src="assets/img/educationLogo.png" alt="Books">
+                <h2>Education</h2>
+                <ul>
+                    <li class="enumeration"><b style="color: darkgreen">Bryansk State Technical University</b>
+                        <ul>
+                            <li class="enumeration">Industrial thermal power engineering</li>
+                            <li class="enumeration">Information security</li>
+                        </ul>
+                    </li>
+                    <li class="enumeration"><b style="color: darkgreen">Udemy</b>
+                        <ul>
+                            <li class="enumeration">HTML/CSS</li>
+                            <li class="enumeration">JavaScript</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="codeExample" id="code">
+                <img src="assets/img/codeLogo.png" alt="JS Logo">
+                <h2>Code Example</h2>
+                    <pre>
+                        <code>
+function paperwork(n, m) {
+if (n &lt; 0 || m &lt; 0) {
+return 0;
+} else {
+return n*m;
+}
+}
+                        </code>
+                    </pre>
+            </section>
+            
+            <section class="languages" id="language">
+                <img src="assets/img/languageLogo.png" alt="">
+                <h2>Languages</h2>
+                    <ul>
+                        <li class="enumeration">Russian (Native)</li>
+                        <li class="enumeration">English (Pre-Intermediate)</li>
+                    </ul>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div><p>GitHub: <a class="links" href="https://github.com/AlmostEazy"> AlmostEazy</a></p>
+                 © 2022 All Rights Reserved by RS School.
+            </div>
+                <div class="rsschoolLogo">
+                    <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo"></a>
+                </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
