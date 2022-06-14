@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,24 +11,103 @@
 </head>
 <body>
 
+
 <header class = "header">
     <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#information" class="nav-link">Personal information</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">About Me</a>></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a>></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a>></li>
-                <li class="nav-item"><a href="#language" class="nav-link">Language</a>></li>
-            </ul>
-        </nav>
-    </div>
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="assets/img/logo.png">
+            </div>
 
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> <a href="#information" class="nav-link">Personal information</a> </li>
+                    <li class="nav-item"> <a href="#summary" class="nav-link">About Me</a> </li>
+                    <li class="nav-item"> <a href="#education" class="nav-link">Education</a> </li>
+                    <li class="nav-item"> <a href="#code" class="nav-link">Code</a> </li>
+                    <li class="nav-item"> <a href="#language" class="nav-link">Languages</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 
-<main class = "main"></main>>
+<main class = "main">
+    <div class="container">
+        <div class="content">
+            <section class="profile" id="information">
+                <img src="assets/img/avatarManDesign.png" alt="My Avatar">
+                <h1>Zaytsev Anton Viktorovich</h1>
+                <h4>Thermal power engineer</h4>
+                <img src="assets/img/informationLogo.png" alt="phones art">
+                <ul class="contacts">
+                    <li>Address: 22nd Street of the CPSU Congress, Bryansk, Russian Federation</li>
+                    <li>Phone: +7 (920) 861- 71-71</li>
+                    <li>E-mail: Antosha101992@rambler.ru</li>
+                    <li>GitHub: AlmostEazy</li>
+                </ul>
+            </section>
 
-<footer class="footer"></footer>>
+            <section class="about" id="summary">
+                <img src="assets/img/summaryLogo.png" alt="Greeting">
+                <p>My name is Anton, and I am a 29 years old thermal power engineer.</p>
+                <p>After graduation, I worked in engineering organizations for 6 years. All last year I thought I wanted to change my life and good friend offered to try Front-end for me. So, here I am!</p>
+                <h4>Personal qualities:</h4>
+                    <ul>
+                        <li>Absence of bad habits</li>
+                        <li>High efficiency</li>
+                        <li>Honesty</li>
+                        <li>Competent speech</li>
+                        <li>Sociability</li>
+                        <li>Creative thinking</li>
+                        <li>Quick learning</li>
+                        <li>Personal and professional growth</li>
+                    </ul>
+            </section>
+
+            <section class="study" id="education">
+                <img src="assets/img/educationLogo.png" alt="Books">
+                <ul>
+                    <li>Bryansk State Technical University</li>
+                        <ul>
+                            <li>Industrial thermal power engineering</li>
+                            <li>Information security</li>
+                        </ul>
+                    <li>Udemy</li>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                </ul>
+            </section>
+
+            <section class="codeExample" id="code">
+                <img src="assets/img/codeLogo.png" alt="JS Logo">
+                        <code>
+                            function paperwork(n, m) {
+                            if (n < 0 || m < 0) {
+                            return 0;
+                            } else {
+                            return n*m;
+                            }
+                            }
+                        </code>
+            </section>
+            
+            <Section class="languages" id="language">
+                <img src="assets/img/languageLogo.png" alt="">
+                    <ul>
+                        <li>Russian (Native)</li>
+                        <li>English (Pre-Intermediate)</li>
+                    </ul>
+            </Section>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container"></div>
+</footer>
 
 </body>
 </html>
